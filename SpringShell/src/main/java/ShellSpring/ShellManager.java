@@ -7,18 +7,6 @@ import java.util.Set;
 
 public class ShellManager {
     @Autowired
-    private DateCommand date;
-
-    @Autowired
-    private DirCommand dir;
-
-    @Autowired
-    private ExiteCommand exite;
-
-    @Autowired
-    private TimeCommand time;
-
-    @Autowired
     private Set<Command> commands;
 
 

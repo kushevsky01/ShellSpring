@@ -9,7 +9,6 @@ public class ShellManager {
     @Autowired
     private Set<Command> commands;
 
-
     public void doShell(String cmd) {
         boolean correct = false;
         for (Command command : commands) {

@@ -21,6 +21,11 @@ public class AppConfig {
     }
 
     @Bean
+    HelpCommand getHelp() {
+        return new HelpCommand();
+    }
+
+    @Bean
     TimeCommand getTime() {
         return new TimeCommand();
     }
